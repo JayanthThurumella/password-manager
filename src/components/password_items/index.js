@@ -25,6 +25,7 @@ const PasswordItems = props => {
       </div>
       <div className="website-details-container">
         <p className="names-passwords">{website.website}</p>
+        <p className="names-passwords">{website.username}</p>
         {userPassword}
       </div>
       <button
